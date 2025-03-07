@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryptor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🔐 Encrypt Your Image</h2>
+    <input type="file" id="encryptInput">
+    <button onclick="encryptImage()">Encrypt</button>
+    <div id="encryptResult"></div>
+</div>
+
+<br>
+
+<div class="container">
+    <h2>🔓 Decrypt Your Image</h2>
+    <input type="file" id="decryptInput">
+    <p>Select Key File:</p>
+    <input type="file" id="keyInput">
+    <button onclick="decryptImage()">Decrypt</button>
+    <div id="decryptResult"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
